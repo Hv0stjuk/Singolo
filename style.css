@@ -2,3 +2,66 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  background-color: #2D303A;
+  height: 89px;
+  border-bottom: 6px solid #323746;
+  color: white;
+
+}
+
+.content {
+  height: 100%;
+  max-width: 1020px;
+  margin: auto;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 29px 40px 35px 40px;
+
+}
+
+.logo h1{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.logo span{
+  color: #F06C64;
+}
+
+.navigation {
+  align-self: flex-end;
+}
+
+.navigation__list {
+  display: flex;
+  list-style: none;
+}
+
+.navigation__item {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation__link:hover {
+  color: #F06C64;
+  transition: all 0.3s ease;
+}
