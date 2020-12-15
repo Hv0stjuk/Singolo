@@ -9,11 +9,15 @@ body {
 /* HEADER */
 
 .header {
+  width: 100%;
   background-color: #2D303A;
   height: 89px;
   border-bottom: 6px solid #323746;
   color: white;
-
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  opacity: 0.9;
 }
 
 .content {
@@ -60,12 +64,16 @@ body {
 
 .navigation__link {
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
 
 .navigation__link:hover {
   color: #F06C64;
   transition: all 0.3s ease;
+}
+
+.active-nav {
+  color: #F06C64;
 }
 
 /* SLIDER */
@@ -75,6 +83,14 @@ body {
   background-color: #F06C64;
   position: relative;
   border-bottom: 6px solid #EA676B;
+  padding-top: 94px;
+}
+
+.slider--color {
+  height: 594px;
+  background-color: #648BF0;
+  position: relative;
+  border-bottom: 6px solid #3e6fe9;
 }
 
 .slider__wrapper {
@@ -88,6 +104,7 @@ body {
 .slide__item {
   height: 100%;
   width: 1020px;
+
 }
 
 .slider__slide-1 {
@@ -95,6 +112,10 @@ body {
   width: 1020px;
   background-color: #F06C64;
   position: relative;
+}
+
+.slider__slide-1--hidden {
+  display: none;
 }
 
 .slider__phone-vertical {
@@ -293,6 +314,7 @@ border-bottom: 6px solid #323746;
 .tabs__item:hover{
   border: 1px solid #DEDEDE;
   color: #DEDEDE;
+  transition: all 0.3s ease;
 }
 
 .portfolio__list {
@@ -315,7 +337,7 @@ border-bottom: 6px solid #323746;
 .portfolio__item:hover {
   cursor: pointer;
   opacity: 1;
-  box-sizing: border-box;
+  outline: 4px solid #F06C64;
 }
 
 .portfolio__img {
