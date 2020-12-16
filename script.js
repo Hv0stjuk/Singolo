@@ -71,7 +71,7 @@ function shufflePortfolioImages() {
     changePortfolioImages();
   });
 }
-shufflePortfolioImages()
+shufflePortfolioImages();
 
 
 function openBurgerMenu() {
@@ -79,3 +79,4 @@ function openBurgerMenu() {
   burgerButton.querySelector('.burger__list').classList.toggle('burger__list--show');
   });
 }
+openBurgerMenu();
