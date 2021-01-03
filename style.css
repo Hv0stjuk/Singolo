@@ -354,19 +354,11 @@ border-bottom: 6px solid #323746;
   display: none;
 }
 
-.portfolio__img {
-
-}
-
 /* FOOTER*/
 
 .footer {
 height: 76px;
 background-color:  #2D303A;
-}
-
-.container {
-
 }
 
 .footer-wrapper {
@@ -381,10 +373,6 @@ background-color:  #2D303A;
   font-size: 13px;
   font-weight: 900;
   line-height: 18px;
-}
-
-.footer_text {
-
 }
 
 .footer__social{
@@ -1060,10 +1048,6 @@ background-color:  #2D303A;
   background-color:  #2D303A;
   }
   
-  .container {
-  
-  }
-  
   .footer-wrapper {
     padding: 22px 42px 22px 40px;
     display: flex;
@@ -1078,11 +1062,7 @@ background-color:  #2D303A;
     line-height: 18px;
     display: none;
   }
-  
-  .footer_text {
-  
-  }
-  
+
   .footer__social{
     width: 152px;
     display: flex;
@@ -1510,10 +1490,6 @@ background-color:  #2D303A;
     background-color:  #2D303A;
     }
     
-    .container {
-    
-    }
-    
     .footer-wrapper {
       padding: 22px 42px 22px 40px;
       display: flex;
@@ -1527,10 +1503,6 @@ background-color:  #2D303A;
       font-weight: 900;
       line-height: 18px;
       display: none;
-    }
-    
-    .footer_text {
-    
     }
     
     .footer__social{
