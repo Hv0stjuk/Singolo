@@ -127,10 +127,6 @@ body {
   position: relative;
 }
 
-  /* .slider__slide-1--hidden {
-    display: none;
-  } */
-
 .slider__phone-vertical {
   position: absolute;
   top: 54px;
